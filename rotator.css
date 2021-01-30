@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family={font_name}&display=swap');
+
+:root {
+  	--background-color: {{background_color}};
+    --accent-color: {{accent_color}};
+    --text-color: {{text_color}};
+    --text-accent-color: {{text_accent_color}};
+    --icon-color: {{icon_color}};
+  	--spacer-width: {{spacer_width}}px;
+  	--spacer-margin: {{spacer_margin}}px;
+  	--widget-padding: {{widget_padding}}px;
+  	--font-size: {{font_size}}px;
+    --train-color: {{train_color}};
+  	--train-height: {{train_height}}px;
+}
+
+/* Layout */
+body {
+	margin: 0;
+}
+
+.main-container {
+  	font-family: '{font_name}', cursive !important;
+  	background-color: var(--background-color);
+  	/*padding: var(--widget-padding);*/
+  	/*height: calc(100% - var(--train-height));*/
+  	font-size: var(--font-size) !important;
+  	display: flex;
+  	align-items: right;
+  	/*justify-content: space-between;*/
+  	box-sizing: border-box;
+   	text-shadow: 1px 1px 2px #000000;
+    font-weight: bold;
+}
+
+/*.component {
+	width: max-content;
+  	margin: 0px var(--spacer-margin);
+  	text-align: center;
+}*/
+
+.latest-container {
+  	/*flex-grow: 4;*/
+  	text-align: center;
+    width: 325px;
+    height: 30px;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+/*.spacer {
+	height: 100%;
+  	width: var(--spacer-width);
+  	background-color: var(--accent-color);
+}
+
+.train-bar {
+	background-color: var(--train-color);
+  	height: var(--train-height);
+    transition-duration: .9s;
+    transition-property: width;
+    transition-timing-function: linear;
+}*/
+
+/* Small Things */
+.accent {
+	color: var(--text-accent-color);
+}
+
+.text {
+	color: var(--text-color);
+}
+
+.fas {
+	color: var(--icon-color) !important;
+}

@@ -1,0 +1,227 @@
+{
+    "background_color": {
+      "type": "colorpicker",
+      "label": "Background Color",
+      "value": "rgba(1, 22, 39, 0.5)",
+      "group": "Global settings"
+    },
+    "accent_color": {
+      "type": "colorpicker",
+      "label": "Accent Color",
+      "value": "#ff143f",
+      "group": "Global settings"
+    },
+    "font_name": {
+      "type": "googleFont",
+      "label": "Font name",
+      "group": "Global settings"
+    },
+    "text_color": {
+      "type": "colorpicker",
+      "label": "Text Color",
+      "value": "#fdfffc",
+      "group": "Global settings"
+    },
+    "text_accent_color": {
+      "type": "colorpicker",
+      "label": "Text Accent Color",
+      "value": "#ff143f",
+      "group": "Global settings"
+    },
+    "font_size": {
+      "type": "number",
+      "label": "Text Size",
+      "value": 16,
+      "group": "Global settings"
+    },
+    "icon_color": {
+      "type": "colorpicker",
+      "label": "Icon Color",
+      "value": "#ff143f",
+      "group": "Global settings"
+    },
+    "train_type": {
+      "type": "dropdown",
+      "label": "Train Type",
+      "options": {
+        "follower-latest": "Follow",
+        "subscriber-latest": "Subscription"
+      },
+      "value": "follower-latest",
+      "group": "Train settings"
+    },
+    "train_color": {
+      "type": "colorpicker",
+      "label": "Train Color",
+      "value": "#ff143f",
+      "group": "Train settings"
+    },
+    "train_height": {
+      "type": "number",
+      "label": "Train Height",
+      "value": 8,
+      "group": "Train settings"
+    },
+    "train_length": {
+      "type": "number",
+      "label": "Train Length In Seconds",
+      "value": 30,
+      "group": "Train settings"
+    },
+    "spacer_width": {
+      "type": "number",
+      "label": "Spacer Width",
+      "value": 3,
+      "group": "Global settings"
+    },
+    "spacer_margin": {
+      "type": "number",
+      "label": "Spacer Margin",
+      "value": 8,
+      "group": "Global settings"
+    },
+    "widget_padding": {
+      "type": "number",
+      "label": "Widget Padding",
+      "value": 8,
+      "group": "Global settings"
+    },
+    "stats_refresh_rate": {
+      "type": "number",
+      "label": "Stats Refresh Rate",
+      "value": 10,
+      "group": "Global settings"
+    },
+    "stats_toggle_followers": {
+      "type": "dropdown",
+      "label": "Enable Follower Stats?",
+      "options": {
+        "true": "Enable",
+        "false": "Disable"
+      },
+      "value": "true",
+      "group": "Followers"
+    },
+    "followers_icon": {
+      "type": "text",
+      "label": "Followers Icon",
+      "value": "heart",
+      "group": "Followers"
+    },
+    "stats_toggle_subs": {
+      "type": "dropdown",
+      "label": "Enable Sub Stats?",
+      "options": {
+        "true": "Enable",
+        "false": "Disable"
+      },
+      "value": "true",
+      "group": "Subs"
+    },
+    "subs_icon": {
+      "type": "text",
+      "label": "Subs Icon",
+      "value": "crown",
+      "group": "Subs"
+    },
+    "stats_toggle_viewers": {
+      "type": "dropdown",
+      "label": "Enable Viewer Stats? (TWITCH ONLY)",
+      "options": {
+        "true": "Enable",
+        "false": "Disable"
+      },
+      "value": "false",
+      "group": "Viewer count"
+    },
+    "viewers_icon": {
+      "type": "text",
+      "label": "Viewers Icon",
+      "value": "eye",
+      "group": "Viewer count"
+    },
+    "latest_toggle_follower": {
+      "type": "dropdown",
+      "label": "Enable Latest Follower?",
+      "value": "true",
+      "options": {
+        "true": "Enable",
+        "false": "Disable"
+      },
+      "group": "Followers"
+    },
+    "latest_follower_empty": {
+      "type": "text",
+      "label": "Latest Follower Empty",
+      "value": "No Followers",
+      "group": "Followers"
+    },
+    "latest_toggle_subscriber": {
+      "type": "dropdown",
+      "label": "Enable Latest Subscriber?",
+      "value": "true",
+      "options": {
+        "true": "Enable",
+        "false": "Disable"
+      },
+      "group": "Subs"
+    },
+    "latest_subscriber_empty": {
+      "type": "text",
+      "label": "Latest Subscriber Empty",
+      "value": "No Subscribers",
+      "group": "Subs"
+    },
+    "latest_toggle_cheer": {
+      "type": "dropdown",
+      "label": "Enable Latest Cheer?",
+      "value": "true",
+      "options": {
+        "true": "Enable",
+        "false": "Disable"
+      },
+      "group": "Cheers"
+    },
+    "latest_cheer_empty": {
+      "type": "text",
+      "label": "Latest Cheer Empty",
+      "value": "No Cheers",
+      "group": "Cheers"
+    },
+    "latest_toggle_donation": {
+      "type": "dropdown",
+      "label": "Enable Latest Donation?",
+      "value": "true",
+      "options": {
+        "true": "Enable",
+        "false": "Disable"
+      },
+      "group": "Tips"
+    },
+    "latest_donation_empty": {
+      "type": "text",
+      "label": "Latest Donation Empty",
+      "value": "No Donations",
+      "group": "Tips"
+    },
+    "donation_icon": {
+        "type": "text",
+      "label": "Donation Icon",
+         "value": "money-bill-wave",
+      "group": "Tips"
+    },
+    "cheer_icon": {
+       "type": "text",
+      "label": "Cheer Icon",
+      "value": "star",
+      "group": "Cheers"
+    },
+    "widgetName":{
+     "type":"hidden",
+     "value":"Rotating information bar"
+    },
+    "widgetAuthor":{
+      "type":"hidden",
+      "value":"Coocla33"
+    }
+  }
